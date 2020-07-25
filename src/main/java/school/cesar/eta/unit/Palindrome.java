@@ -9,7 +9,7 @@ public class Palindrome {
             return true;
         }
 
-        if(word.charAt(0) == word.charAt(length -1)){
+        if(word.charAt(0) == word.charAt(length-1)){
             return check(word.substring(1,length-1));
         }
 
