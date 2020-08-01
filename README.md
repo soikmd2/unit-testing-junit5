@@ -1,5 +1,5 @@
 # unit-testing-junit5 using TDD
-![Java CI with Maven](https://github.com/soikmd2/unit-testing-junit5/workflows/Java%20CI%20with%20Maven/badge.svg)
+![Java CI with Maven](https://github.com/soikmd2/unit-testing-junit5/workflows/Java%20CI%20with%20Maven/badge.svg) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=soikmd2_unit-testing-junit5&metric=coverage)](https://sonarcloud.io/dashboard?id=soikmd2_unit-testing-junit5)
 
 [CESAR.SCHOOL](https://www.cesar.school/) @ Especialização em Testes Ágeis
 - Disciplina: Testes Unitários
