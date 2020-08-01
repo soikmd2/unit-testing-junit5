@@ -21,4 +21,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: mvn test
+      run: mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar
+      env:
+        GITHUB_TOKEN: ${{ secret.GITHUB_TOKEN}}
+        SONAR_TOKEN: ${{ secret.SONAR_TOKEN}}
